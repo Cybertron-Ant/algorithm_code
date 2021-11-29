@@ -1,0 +1,16 @@
+To calculate how long it takes to do a journey you could use the 
+following algorithm:
+
+
+TimeDeparted = 15:00
+TimeArrived = 16:00
+
+Drivetime = TimeArrived - TimeDeparted
+
+
+This is an example of pseudo-code, which is a way of expressing the 
+algorithm without having to use any specific programming language. 
+The start point for programmers is often to work out what algorithms are 
+needed to solve a problem and then to write these in pseudo-code during 
+the planning stage. This can be a time-consuming process depending on 
+the complexity of the solution.
