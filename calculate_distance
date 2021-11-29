@@ -14,3 +14,7 @@ The start point for programmers is often to work out what algorithms are
 needed to solve a problem and then to write these in pseudo-code during 
 the planning stage. This can be a time-consuming process depending on 
 the complexity of the solution.
+
+When all of the procedures have been identified, the pseudo-code can 
+be converted into proper programming code using whatever language is 
+considered the most appropriate for solving the problem.
