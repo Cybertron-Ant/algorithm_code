@@ -17,3 +17,13 @@ the question: how much slower will this code run if we give it 1000 things
 to work on instead of 1? For example, if you had a bubble sort routine that
 compared the first two items of data and swapped them if necessary, then
 compared the next two items of data and so on, this might work quite quickly
+
+
+O(1), known as constant time, means that the algorithm will always
+execute in exactly the same amount of time regardless of the input size.
+Accessing an array would be an example of this as each element of the
+array is accessed directly by referring to its position. Therefore, it would
+not take any longer to access a single element if there were one or ten
+million items in the array. Note that O(1) does not necessarily mean that
+the code will run quickly, it just means that it will take the same amount
+of time (it is constant) regardless of the input.
