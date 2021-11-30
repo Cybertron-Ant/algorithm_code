@@ -1,0 +1,9 @@
+Third normal form is achieved by ensuring the database is in second 
+normal form and then removing non-key attributes that depend upon other 
+non-key attributes by creating additional tables.
+If we look at each of the three tables in turn:
+● Table 43.4 MOVIE: It can be noted that the FileType depends upon the
+Format. All LowRes films are recorded in MPEG-2 format and all HiRes
+films are recorded in MPEG-4 format. Therefore, the non-key attribute
+FileType depends upon the non-key attribute Format so we can split the
+format information off from the movie information to create two new tables:
