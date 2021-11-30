@@ -10,3 +10,10 @@ this is the number of parameters or values that the algorithm will be
 working on. For example, a search routine written to work on a dataset 
 with only a few values may not work as efficiently on a larger dataset with 
 hundreds of values.
+
+
+It looks at the worst-case scenario by essentially asking
+the question: how much slower will this code run if we give it 1000 things
+to work on instead of 1? For example, if you had a bubble sort routine that
+compared the first two items of data and swapped them if necessary, then
+compared the next two items of data and so on, this might work quite quickly
