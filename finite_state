@@ -1,0 +1,9 @@
+
+A finite state machine (FSM) is any device that can 
+store its current status (or state) and can change state based on an 
+input. The FSM may receive further inputs, which in turn change the 
+state again.
+
+This shows the dependency of one state on the next. If the username is 
+correct it can change to the next state. If the password is correct it can move 
+on to the accepting state. Without the correct inputs the state will not change.
