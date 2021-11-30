@@ -1,6 +1,0 @@
-To represent programs in Turing machines you need:
-● a start state – the state of the machine at the start of the program
-● a halting state – the state that will stop the program running
-● an alphabet – this is a list of the acceptable symbols that can go into each cell
-● movement – the ability to move the head so that you can read/write to
-every cell

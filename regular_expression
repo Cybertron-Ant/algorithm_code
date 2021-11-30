@@ -1,0 +1,5 @@
+● (a|b|c)d*e would produce the following possible strings: ade, ae, be, bde,
+ce and cde. There could in fact be an infinite number of the letter ‘d’ but
+it would have to end in an e.
+● (a+(b|c))d would produce abd or aabd or aaabd (and so on with the
+preceding ‘a’) or the ‘b’ could be replaced by a ‘c’ in each string
