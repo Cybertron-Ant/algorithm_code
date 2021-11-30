@@ -27,3 +27,9 @@ not take any longer to access a single element if there were one or ten
 million items in the array. Note that O(1) does not necessarily mean that
 the code will run quickly, it just means that it will take the same amount
 of time (it is constant) regardless of the input.
+
+
+O(N) represents a linear function and it means that the runtime of the
+algorithm will increase in direct proportion with the input size. For
+example, there could be a relationship where if you input twice as much
+data, the algorithm will take twice as long
