@@ -1,0 +1,2 @@
+First normal form is achieved by ensuring that a table does not contain 
+repeating attributes or repeating groups and that all of the data in the table is atomic
