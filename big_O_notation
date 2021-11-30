@@ -1,0 +1,12 @@
+Time: how long does the algorithm take to run compared to other
+algorithms.
+
+Space: how much space (memory) is required by the algorithm compared
+to other algorithms.
+
+
+The key consideration is what is called input size or problem size. Typically 
+this is the number of parameters or values that the algorithm will be 
+working on. For example, a search routine written to work on a dataset 
+with only a few values may not work as efficiently on a larger dataset with 
+hundreds of values.
