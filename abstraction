@@ -1,0 +1,11 @@
+This is the process of removing unnecessary details until it is possible to represent the problem in a way that can be solved. This level of abstraction
+could be described as viewing the ‘big picture’ – working out what is
+relevant to solving the problem and what is unnecessary detail that can be
+ignored.
+With the satnav problem, at a basic level, the problem can be reduced to
+finding the shortest distance between point A and point B. An abstraction
+of that would be to:
+
+
+● identify point A and point B in some way
+● identify the connecting paths between A and B
