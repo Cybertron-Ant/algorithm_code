@@ -5,3 +5,16 @@ it would have to end in an e.
 preceding ‘a’) or the ‘b’ could be replaced by a ‘c’ in each string
 
 pg - 158
+
+‘Set a variable that contains the search string
+Dim myString As String = "Software Version 3"
+‘Define the alphabet
+Dim regex = New Regex("[0-9]")
+‘Set a variable to store the matching characters
+Dim match = regex.Match(myString)
+‘Where a match is found between the alphabet and 
+the search string, write the matching characters to 
+the screen
+If match.Success Then
+Console.WriteLine(match.Value)
+End If
