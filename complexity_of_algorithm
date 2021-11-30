@@ -1,0 +1,7 @@
+● An O(1) algorithm scales the best as it never takes any longer to run.
+● An O(logN) algorithm is the next most efficient.
+● An O(N) algorithm is the next most efficient.
+● An O(N2) algorithm is a polynomial and is considered to be the point
+beyond which algorithms start to become intractable. Note that the
+superscript number could be any value.
+● An O(2N) algorithm is the least efficient and considered intractable.
